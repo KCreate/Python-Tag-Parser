@@ -1,6 +1,6 @@
 import string
 import sys
-def p(t, s):
+def parsetag(t, s):
     x = s
     r = []
     while s!="" and s.find(t)!=-1:
