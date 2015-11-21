@@ -16,6 +16,6 @@ python tagparser.py "*" "Python is *awesome* and *fast*"
 You can also import it and use the __parsetag(tag, string)__ function
 __Example:__
 ```python
-print(p('*', 'Python is *awesome* and *fast*'))
+print(parsetag('*', 'Python is *awesome* and *fast*'))
 # ['awesome', 'fast']
 ```
